@@ -13,6 +13,6 @@ function button()
         .then(response => console.log(response))
         .catch(err => console.error(err));
 
-    document.write("Done! See your console for Seattle's current weather!")
+        document.write('<h3 style="text-align: center;">Done! Check your console to see the integrated data of Seattles current weather! </h3>');
     
 }
